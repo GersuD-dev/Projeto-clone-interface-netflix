@@ -1,3 +1,74 @@
+:root{
+    --verde: #7ED957;
+    --marrom: #545454;
+    --laranja: #ED5B2D;
+    --amareloclaro: #FFCE6D; 
+    --amarelo: #FACB01;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: rgba(34, 187, 3, 0.555);
+    background-color: var(--amareloclaro);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container{
+    
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:baseline;
+    color: --laranja;
+    font-family: 'Poppins', 'Arial', Times;
+    font-size: 15px;
+}
+header nav logoname{
+    color: var(--marrom);
+    font-family: 'Poppins', 'Arial Black', Times;
+}
+
+header nav a{
+    text-decoration:none;
+    color: var(--laranja);
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+header nav a:hover{
+    color: white;
+}
+
+.filme-principal{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url(/img/Cleancode.jpg);
+    height: 500px;
+    background-size: cover;
+}
+
+.titulo{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.descricao{
+    margin-top: 7%;
+}
+
+.selecao{
+    border-style: groove;
+}
+
+.logoname{
+    color: var(--laranja);
+    align-items: center;
+    letter-spacing: 2px;
+    font-family: 'Arial Black', Times;
+    margin-right: 40%;
+    font-size: 150%;
+}
+main .container{
+    color: white;
 }
