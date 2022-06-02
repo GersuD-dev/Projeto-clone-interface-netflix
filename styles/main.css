@@ -14,7 +14,7 @@
 
 body{
     background-color: var(--amareloclaro);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial Black', Times, serif;
 }
 
 header .container{
@@ -24,7 +24,7 @@ header .container{
     align-items:center;
     justify-content:baseline;
     color: --laranja;
-    font-family: 'Poppins', 'Arial', Times;
+    font-family: 'Poppins', 'Arial Black', Times;
     font-size: 15px;
 }
 header nav logoname{
