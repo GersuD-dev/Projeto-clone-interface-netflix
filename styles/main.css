@@ -3,7 +3,8 @@
     --marrom: #545454;
     --laranja: #ED5B2D;
     --amareloclaro: #FFCE6D; 
-    --amarelo: #FACB01;
+    --amarelo: #fada04;
+    --preto: #262d2b;
 }
 
 *{
@@ -13,7 +14,7 @@
 }
 
 body{
-    background-color: var(--amareloclaro);
+    background-color: white;
     font-family: 'Arial Black', Times, serif;
 }
 
@@ -24,22 +25,26 @@ header .container{
     align-items:center;
     justify-content:baseline;
     color: --laranja;
-    font-family: 'Poppins', 'Arial Black', Times;
-    font-size: 15px;
+    font-family: 'Arial Black', Times;
+    font-size: auto;
 }
 header nav logoname{
     color: var(--marrom);
-    font-family: 'Poppins', 'Arial Black', Times;
+    font-family: 'Arial Black', Times;
 }
 
 header nav a{
     text-decoration:none;
     color: var(--laranja);
-    margin-right: 30px;
-    margin-left: 30px;
+    font-family: 'Arial', Times;
+    align-items:center;
+    font-size: auto;
 }
 
 header nav a:hover{
+    color: var(--marrom);
+}
+main .container{
     color: white;
 }
 
@@ -57,18 +62,15 @@ header nav a:hover{
     margin-top: 7%;
 }
 
-.selecao{
-    border-style: groove;
+.logopagina{
+    font-family: 'Arial', Times;
+    font-size: 50%;
 }
 
 .logoname{
-    color: var(--laranja);
+    color: var(--preto);
     align-items: center;
-    letter-spacing: 2px;
     font-family: 'Arial Black', Times;
-    margin-right: 40%;
-    font-size: 150%;
-}
-main .container{
-    color: white;
+    margin-left: 5%;
+    font-size: 120%;
 }
